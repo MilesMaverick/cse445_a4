@@ -98,7 +98,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.3">
+  <Hotel>
     <Name>The Camby Phoenix</Name>
     <Phone>602-468-0700</Phone>
     <Address>
@@ -110,7 +110,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.0">
+  <Hotel>
     <Name>The Saguaro Scottsdale</Name>
     <Phone>480-308-1100</Phone>
     <Address NearestAirport="Scottsdale Airport">
@@ -122,7 +122,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.1">
+  <Hotel>
     <Name>Hyatt Regency Phoenix</Name>
     <Phone>602-252-1234</Phone>
     <Address NearestAirport="Sky Harbor">
