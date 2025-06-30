@@ -2,7 +2,7 @@
 <!-- (1) WRONG ROOT ELEMENT-->
 <Hotel
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/MilesMaverick/cse445_a4/main/Hotels.xsd">
+  xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
   <!--- Faulty Hotel #1 -->
   <!-- (2) MISSING required Rating attribute -->
