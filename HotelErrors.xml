@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- root is wrong on purpose -->
+<Hotel
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://your-username.github.io/Hotels.xsd">
+
+  <!-- (missing required Rating attribute on first Hotel  -->
+  <Hotel>
+    <Name>Bad Hotel</Name>
+    <!-- Phone element intentionally deleted -->
+    <Address>
+      <!-- (Address never closes – deliberate error -->
+      <Number>1</Number>
