@@ -3,7 +3,6 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-  <!-- 1 -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -17,7 +16,6 @@
     </Address>
   </Hotel>
 
-  <!-- 2 -->
   <Hotel Rating="4.0">
     <Name>Hyatt Place Tempe / Phoenix</Name>
     <Phone>480-207-1578</Phone>
@@ -30,7 +28,6 @@
     </Address>
   </Hotel>
 
-  <!-- 3 -->
   <Hotel Rating="4.3">
     <Name>Tempe Mission Palms</Name>
     <Phone>480-894-1400</Phone>
@@ -43,7 +40,6 @@
     </Address>
   </Hotel>
 
-  <!-- 4 -->
   <Hotel Rating="4.5">
     <Name>AC Hotel Phoenix Tempe/Downtown</Name>
     <Phone>480-642-6140</Phone>
@@ -56,7 +52,6 @@
     </Address>
   </Hotel>
 
-  <!-- 5 -->
   <Hotel Rating="3.9">
     <Name>Graduate Tempe</Name>
     <Phone>480-967-9431</Phone>
@@ -69,7 +64,6 @@
     </Address>
   </Hotel>
 
-  <!-- 6 -->
   <Hotel Rating="4.1">
     <Name>Courtyard by Marriott Tempe Downtown</Name>
     <Phone>480-966-2800</Phone>
@@ -82,7 +76,6 @@
     </Address>
   </Hotel>
 
-  <!-- 7 -->
   <Hotel Rating="4.4">
     <Name>Sheraton Phoenix Downtown</Name>
     <Phone>602-262-2500</Phone>
@@ -95,7 +88,6 @@
     </Address>
   </Hotel>
 
-  <!-- 8 -->
   <Hotel Rating="4.6">
     <Name>Kimpton Hotel Palomar Phoenix</Name>
     <Phone>602-253-6633</Phone>
@@ -108,7 +100,6 @@
     </Address>
   </Hotel>
 
-  <!-- 9 -->
   <Hotel Rating="4.3">
     <Name>The Camby Phoenix</Name>
     <Phone>602-468-0700</Phone>
@@ -121,7 +112,6 @@
     </Address>
   </Hotel>
 
-  <!--10-->
   <Hotel Rating="4.0">
     <Name>The Saguaro Scottsdale</Name>
     <Phone>480-308-1100</Phone>
