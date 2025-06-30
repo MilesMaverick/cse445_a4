@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- (1) WRONG ROOT ELEMENT-->
 <Hotel
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  xsi:schemaLocation="https://raw.githubusercontent.com/MilesMaverick/cse445_a4/main/HotelsErrors.xml">
 
+  <!--- Faulty Hotel #1 -->
+  <!-- (2) MISSING required Rating attribute -->
+  <!-- (3) NO <Phone> element -->
   <Hotel>
     <Name>Bad Hotel One</Name>
     <Address>
@@ -14,6 +18,8 @@
     </Address>
   </Hotel>
 
+  <!--- Faulty Hotel #2 -->
+  <!-- (4) <Address> tag never closes -->
   <Hotel Rating="3.5">
     <Name>Bad Hotel Two</Name>
     <Phone>000-000-0000</Phone>
@@ -26,6 +32,8 @@
     </Address>
   </Hotel>
 
+  <!--- Faulty Hotel #3 -->
+  <!-- (5) Two <Name> elements in one hotel -->
   <Hotel Rating="3.9">
     <Name>Bad Hotel Three</Name>
     <Name>Duplicate Name</Name>
