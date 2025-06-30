@@ -29,6 +29,7 @@
       <City>Phoenix</City>
       <State>AZ</State>
       <Zip>11111</Zip>
+    </Address>
   </Hotel>
 
   <!--- Faulty Hotel #3 -->
