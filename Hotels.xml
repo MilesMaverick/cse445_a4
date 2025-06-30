@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="Hotels.xsd">
+<Hotels
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="Hotels.xsd">
 
   <Hotel Rating="4.2">
     <Name>Westin</Name>
@@ -50,7 +52,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="3.9">
+  <Hotel>
     <Name>Graduate Tempe</Name>
     <Phone>480-967-9431</Phone>
     <Address>
@@ -62,7 +64,7 @@
     </Address>
   </Hotel>
 
-  <Hotel Rating="4.1">
+  <Hotel>
     <Name>Courtyard by Marriott Tempe Downtown</Name>
     <Phone>480-966-2800</Phone>
     <Address>
