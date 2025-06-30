@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <!--  root --------------------------------------------------------------- -->
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
@@ -10,7 +9,6 @@
     </xs:complexType>
   </xs:element>
 
-  <!--  Hotel -------------------------------------------------------------- -->
   <xs:complexType name="HotelType">
     <xs:sequence>
       <xs:element name="Name"   type="xs:string"/>
@@ -18,11 +16,9 @@
       <xs:element name="Address" type="AddressType"/>
     </xs:sequence>
 
-    <!--  Optional rating attribute (“_Rating” in the figure)               -->
-    <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
+    <xs:attribute name="Rating" type="xs:decimal" use="required"/>
   </xs:complexType>
 
-  <!--  Address ------------------------------------------------------------ -->
   <xs:complexType name="AddressType">
     <xs:sequence>
       <xs:element name="Number" type="xs:string"/>
@@ -32,7 +28,6 @@
       <xs:element name="Zip"    type="xs:string"/>
     </xs:sequence>
 
-    <!-- “_NearestAirport” attribute                                -->
     <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
   </xs:complexType>
 
