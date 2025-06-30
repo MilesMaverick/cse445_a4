@@ -52,6 +52,7 @@
     </Address>
   </Hotel>
 
+  <!-- 5 had Rating omitted -->
   <Hotel>
     <Name>Graduate Tempe</Name>
     <Phone>480-967-9431</Phone>
@@ -64,6 +65,7 @@
     </Address>
   </Hotel>
 
+  <!-- 6 had Rating omitted -->
   <Hotel>
     <Name>Courtyard by Marriott Tempe Downtown</Name>
     <Phone>480-966-2800</Phone>
