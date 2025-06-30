@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="https://raw.githubusercontent.com/MilesMaverick/cse445_a4/main/Hotels.xsd">
+  xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
   <!-- 1 -->
   <Hotel Rating="4.2">
@@ -56,8 +56,8 @@
     </Address>
   </Hotel>
 
-  <!-- 5 -->
-  <Hotel Rating="3.9">
+  <!-- 5 — Rating omitted -->
+  <Hotel>
     <Name>Graduate Tempe</Name>
     <Phone>480-967-9431</Phone>
     <Address>
@@ -69,8 +69,8 @@
     </Address>
   </Hotel>
 
-  <!-- 6 -->
-  <Hotel Rating="4.1">
+  <!-- 6 — Rating omitted -->
+  <Hotel>
     <Name>Courtyard by Marriott Tempe Downtown</Name>
     <Phone>480-966-2800</Phone>
     <Address>
@@ -121,7 +121,7 @@
     </Address>
   </Hotel>
 
-  <!--10-->
+  <!-- 10 -->
   <Hotel Rating="4.0">
     <Name>The Saguaro Scottsdale</Name>
     <Phone>480-308-1100</Phone>
